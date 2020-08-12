@@ -9,22 +9,22 @@ int main()
     {
         for (int j = 0; j < 4; j++)
         {
-            // printf("Enter the %d %d element of first matrix\n", i, j);
+            printf("Enter the %d %d element of first matrix\n", i, j);
             scanf("%d", &a[i][j]);
-            // printf("\t");
+            printf("\t");
         } 
-        // printf("\n");
+        printf("\n");
     }
     printf("Enter the second matrix\n");
     for (int i = 0; i < 4; i++)
     {
         for (int j = 0; j < 2; j++)
         {
-            // printf("Enter the %d %d element of first matrix\n", i, j);
+            printf("Enter the %d %d element of first matrix\n", i, j);
             scanf("%d", &b[i][j]);
-            // printf("\t");
+            printf("\t");
         }
-        // printf("\n");
+        printf("\n");
     }
 
     for (int i = 0; i < 3; i++)
